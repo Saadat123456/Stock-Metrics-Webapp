@@ -1,0 +1,14 @@
+.topBar {
+  background-color: #fff;
+  padding: 1rem 0.5rem;
+  box-shadow: 0 2px #1d1d1d7f;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: #1d1d1d;
+  font-family: 'Lato', sans-serif;
+}
