@@ -1,0 +1,44 @@
+.col {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  width: calc(100% - 8px);
+  background-color: #4369b2;
+  margin: 4px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  flex: 1;
+}
+
+.dateTime {
+  text-align: right;
+}
+
+.historyPrices {
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.historyPrices:nth-child(even) {
+  background-color: #1d1d1d;
+}
+
+.heading {
+  padding: 12px;
+  background-color: #1d1d1d;
+  border: 1px solid #fff;
+}
+
+.historyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
