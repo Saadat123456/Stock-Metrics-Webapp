@@ -1,4 +1,4 @@
-import { getCoinMarketApiUrl } from '../../strings.js';
+import getCoinMarketApiUrl from '../../strings';
 
 const GET_STOCK_DATA = 'Stock_Metrics_Webapp/stock_data/GET';
 
