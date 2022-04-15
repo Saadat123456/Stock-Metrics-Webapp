@@ -1,8 +1,10 @@
+import BackButton from './back-button';
 import styles from './header.module.css';
 
 const Header = () => (
   <header className={styles.topBar}>
-    <ul>
+    <BackButton />
+    <ul style={{ width: '100%' }}>
       <li className={styles.heading}>Crypto Price</li>
     </ul>
   </header>
