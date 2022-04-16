@@ -1,7 +1,7 @@
 import getCoinMarketApiUrl from '../../strings';
 
-const GET_STOCK_DATA = 'Stock_Metrics_Webapp/stock_data/GET';
-const FILTER_STOCK_DATA = 'Stock_Metrics_Webapp/stock_data/FILTER_STOCK_DATA';
+export const GET_STOCK_DATA = 'Stock_Metrics_Webapp/stock_data/GET';
+export const FILTER_STOCK_DATA = 'Stock_Metrics_Webapp/stock_data/FILTER_STOCK_DATA';
 
 const initialState = { found: [], not_found: [] };
 
