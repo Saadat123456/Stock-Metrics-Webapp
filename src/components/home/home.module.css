@@ -1,6 +1,8 @@
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .list {
@@ -9,4 +11,5 @@
   flex-direction: row;
   flex-wrap: wrap;
   color: #fff;
+  width: 100%;
 }
