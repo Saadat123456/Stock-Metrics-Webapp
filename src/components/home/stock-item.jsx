@@ -5,7 +5,7 @@ import Star from './star';
 import NextButton from '../common/next-btn';
 
 const StockItem = ({ stock }) => (
-  <Link to={`/details/${stock.cmcRank}`} key={stock.id} className={`${styles['list-item-link']} ${stock.cmcRank === 1 || stock.cmcRank === 2 || stock.cmcRank === 3 ? styles[`position-${stock.cmcRank}`] : ''}`}>
+  <Link to={`/details/${stock.cmcRank}`} key={stock.id} id={`item-${stock.id}`} data-testid={`item-${stock.id}`} className={`${styles['list-item-link']} ${stock.cmcRank === 1 || stock.cmcRank === 2 || stock.cmcRank === 3 ? styles[`position-${stock.cmcRank}`] : ''}`}>
     <div className={styles['next-btn']}><NextButton /></div>
     <li className={styles['list-item']}>
       <div className={styles.price}>

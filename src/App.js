@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { getStockData } from './redux/StockData/stock_data';
 import './App.css';
@@ -14,14 +14,14 @@ function App() {
     dispatch(getStockData());
   }, []);
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/details/:id" element={<Details />} />
         <Route path="*" exact element={<NotFound />} />
       </Routes>
-    </Router>
+    </>
   );
 }
 

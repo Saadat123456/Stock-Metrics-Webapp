@@ -1,7 +1,7 @@
 import styles from './loading-spinner.module.css';
 
 const LoadingSpinner = () => (
-  <div className={styles['lds-ripple']}>
+  <div className={styles['lds-ripple']} data-testid="loading">
     <div />
     <div />
   </div>
