@@ -14,10 +14,13 @@ const Details = () => {
   return (
     <div style={styles}>
       {
-        data.length === 0 ? (
+        data.found.length === 0 ? (
           <LoadingSpinner />
         ) : (
-          <StockDetails stock={data[id - 1]} />
+          <StockDetails stock={data.found.filter(
+            (stock) => stock.cmcRank === parseInt(id, 10),
+          )[0]}
+          />
         )
       }
     </div>
