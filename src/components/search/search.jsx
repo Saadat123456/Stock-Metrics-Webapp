@@ -12,7 +12,7 @@ const Search = () => {
     dispatch(filterStockData(e.target.value));
   }
   return (
-    <input type="text" style={style} id="search" onChange={handleChange} />
+    <input type="text" style={style} id="search" onChange={handleChange} placeholder="Search Stock" />
   );
 };
 

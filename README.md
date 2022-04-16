@@ -39,23 +39,6 @@ To get a local copy follow these simple example steps.
 7. To run the tests associated with the application, use this command:    
 `npm test`
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Saadat Ali**
@@ -77,6 +60,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Coin Market Cap](https://coinmarketcap.com/): This app uses api from Coin Market Cap
+- Original design by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)
+- A special thank for @fernandorpm for this amazing [README template](https://github.com/microverseinc/readme-template)
 
 ## 📝 License
 

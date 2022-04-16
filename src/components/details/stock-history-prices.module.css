@@ -3,7 +3,8 @@
   flex-direction: column;
   font-size: 0.9rem;
   width: calc(100% - 8px);
-  background-color: #4369b2;
+  background-color: #fff;
+  color: #1d1d1d;
   margin: 4px;
 }
 
@@ -28,11 +29,13 @@
 
 .historyPrices:nth-child(even) {
   background-color: #1d1d1d;
+  color: #fff;
 }
 
 .heading {
   padding: 12px;
   background-color: #1d1d1d;
+  color: #fff;
   border: 1px solid #fff;
 }
 

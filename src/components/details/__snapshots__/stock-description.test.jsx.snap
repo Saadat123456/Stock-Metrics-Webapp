@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Correctly 1`] = `
+<div
+  class="stock-description"
+>
+  <div
+    class="description-left"
+  >
+    41152.271
+     $
+  </div>
+  <div
+    class="description-right"
+  >
+    <div
+      class="stockHeading"
+    >
+      Bitcoin
+    </div>
+    <div
+      class="stockHeading"
+    >
+      BTC
+    </div>
+    <div
+      class="col"
+    >
+      <div
+        class="row"
+      >
+        <div>
+          Market Cap
+        </div>
+        <div>
+          $ 
+          782332943289.6387
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div>
+          Volume(24h)
+        </div>
+        <div>
+          $ 
+          27656323988.401524
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div>
+          24h %
+        </div>
+        <div>
+          $ 
+          2.64330378
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div>
+          Circulating Supply
+        </div>
+        <div>
+          $ 
+          19010687
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div>
+          Max Supply
+        </div>
+        <div>
+          $ 
+          21000000
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
