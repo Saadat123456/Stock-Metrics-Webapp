@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import LoadingSpinner from '../common/loading-spinner';
+import LoadingSpinner from '../../components/common/loading-spinner';
 import StockDetails from './stock-details';
 
 const Details = () => {

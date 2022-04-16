@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getDetails } from '../../redux/Details/details';
-import StockDescription from './stock-description';
+import StockDescription from '../../components/details/stock-description';
 import styles from './stock-details.module.css';
-import StockHistoryPrices from './stock-history-prices';
+import StockHistoryPrices from '../../components/details/stock-history-prices';
 
 const StockDetails = ({ stock }) => {
   const dispatch = useDispatch();
