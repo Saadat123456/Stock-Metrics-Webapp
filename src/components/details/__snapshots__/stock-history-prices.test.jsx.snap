@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Correctly 1`] = `
+<div
+  class="col"
+>
+  <h3
+    class="row heading"
+  >
+    Daily Prices
+  </h3>
+  <div
+    class="historyContainer"
+  >
+    <div
+      class="row historyPrices"
+    >
+      <div
+        class="price"
+      >
+        40493.35613391777
+      </div>
+      <div
+        class="dateTime"
+      >
+        22:24
+         | 
+        05/03/22
+      </div>
+    </div>
+    <div
+      class="row historyPrices"
+    >
+      <div
+        class="price"
+      >
+        40502.17406780077
+      </div>
+      <div
+        class="dateTime"
+      >
+        22:29
+         | 
+        05/03/22
+      </div>
+    </div>
+    <div
+      class="row historyPrices"
+    >
+      <div
+        class="price"
+      >
+        40524.388687130406
+      </div>
+      <div
+        class="dateTime"
+      >
+        22:34
+         | 
+        05/03/22
+      </div>
+    </div>
+    <div
+      class="row historyPrices"
+    >
+      <div
+        class="price"
+      >
+        40457.363542248575
+      </div>
+      <div
+        class="dateTime"
+      >
+        22:39
+         | 
+        05/03/22
+      </div>
+    </div>
+    <div
+      class="row historyPrices"
+    >
+      <div
+        class="price"
+      >
+        40425.773716666015
+      </div>
+      <div
+        class="dateTime"
+      >
+        22:44
+         | 
+        05/03/22
+      </div>
+    </div>
+    <div
+      class="row historyPrices"
+    >
+      <div
+        class="price"
+      >
+        40422.37122513517
+      </div>
+      <div
+        class="dateTime"
+      >
+        22:49
+         | 
+        05/03/22
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Correctly 1`] = `
+<div
+  class="lds-ripple"
+  data-testid="loading"
+>
+  <div />
+  <div />
+</div>
+`;
