@@ -1,14 +1,18 @@
 // import PropTypes from 'prop-types';
+import { useDispatch } from 'react-redux';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { filterStockData } from '../../redux/StockData/stock_data';
 
 const BackButton = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   if (location.pathname.match(/\/details\/[1-9]+/g) === null) {
     return null;
   }
 
   function handleClick() {
+    dispatch(filterStockData(''));
     if (window.history.state && window.history.state.idx > 0) {
       navigate(-1);
     } else {
