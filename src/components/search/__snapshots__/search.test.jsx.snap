@@ -3,6 +3,7 @@
 exports[`Renders Correctly 1`] = `
 <input
   id="search"
+  placeholder="Search Stock"
   style="width: 100%; padding: 4px 8px; outline: none;"
   type="text"
 />
