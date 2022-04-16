@@ -5,8 +5,8 @@ import { getStockData } from './redux/StockData/stock_data';
 import './App.css';
 import Header from './components/common/header';
 import NotFound from './components/common/not-found';
-import Details from './components/details/details';
-import Home from './components/home/home';
+import Details from './container/details/details';
+import Home from './container/home/home';
 
 function App() {
   const dispatch = useDispatch();
