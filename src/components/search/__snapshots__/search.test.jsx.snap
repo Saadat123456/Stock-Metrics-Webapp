@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Correctly 1`] = `
+<input
+  id="search"
+  style="width: 100%; padding: 4px 8px; outline: none;"
+  type="text"
+/>
+`;
