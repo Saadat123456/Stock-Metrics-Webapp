@@ -1,4 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e28d6fc8-0aa3-4779-814e-6e1747697463/deploy-status)](https://app.netlify.com/sites/stock-metrics-app/deploys)
 
 # Stock Metrics WebApp
 
@@ -17,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://stock-metrics-app.netlify.app/)
 
 
 ## Getting Started
