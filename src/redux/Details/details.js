@@ -1,7 +1,7 @@
 export const GET_DETAILS = 'Stock_Metrics_Webapp/details/GET';
 export const FETCH_STARTING = 'Stock_Metrics_Webapp/details/START_FETCHING';
 
-export const getDetailsApiUrl = (id) => `https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?id=${id}&range=1D`;
+export const getDetailsApiUrl = (id) => `/data-api/v3/cryptocurrency/detail/chart?id=${id}&range=1D`;
 
 const initialState = [];
 
